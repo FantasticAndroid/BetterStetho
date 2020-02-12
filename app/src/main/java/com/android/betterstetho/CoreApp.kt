@@ -1,7 +1,7 @@
 package com.android.betterstetho
 
 import android.app.Application
-import com.android.stethodebug.RetroUtil
+import com.better.stetho.RetroUtil
 
 class CoreApp : Application() {
     override fun onCreate() {

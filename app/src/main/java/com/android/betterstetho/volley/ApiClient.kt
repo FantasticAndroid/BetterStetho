@@ -1,9 +1,9 @@
 package com.android.betterstetho.volley
 
 import com.android.betterstetho.CoreApp
-import com.android.stethodebug.VolleyUtil
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import com.better.stetho.VolleyUtil
 
 class ApiClient(private val coreApp: CoreApp) {
 

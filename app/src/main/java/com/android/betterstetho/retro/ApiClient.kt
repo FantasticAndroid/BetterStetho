@@ -1,7 +1,7 @@
 package com.android.betterstetho.retro
 
 import com.android.betterstetho.Constant
-import com.android.stethodebug.RetroUtil
+import com.better.stetho.RetroUtil
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

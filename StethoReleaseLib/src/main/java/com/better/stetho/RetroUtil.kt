@@ -1,4 +1,4 @@
-package com.android.stethorelease
+package com.better.stetho
 
 import android.content.Context
 import okhttp3.OkHttpClient

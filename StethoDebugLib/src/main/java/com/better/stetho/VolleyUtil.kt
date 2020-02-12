@@ -1,4 +1,4 @@
-package com.android.stethodebug
+package com.better.stetho
 
 import android.content.Context
 import android.util.Log
