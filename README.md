@@ -12,3 +12,25 @@ To check how it works, please go through the app module.
 
 ### Libraries integrated-
 Stetho 1.5.1 from (http://facebook.github.io/stetho/)
+
+#### How to use
+Project level `build.gradle`
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+App level `build.gradle`
+```groovy
+debugImplementation 'com.github.FantasticAndroid.BetterStetho:StethoDebugLib:2.0'
+releaseImplementation 'com.github.FantasticAndroid.BetterStetho:StethoReleaseLib:2.0'
+```
+#### Initialize Stetho by calling
+```kotlin
+RetroUtil.initStethoAccordingly(this) /*This will enable Stetho for Debug Build for All Retro/Volley and Other Inspection*/
+```
+##### Take a look into app module for Retrofit and Volley ApiClient and Api Calling process.

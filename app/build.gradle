@@ -41,10 +41,10 @@ dependencies {
     /*debugApi project(':StethoDebugLib')
     releaseApi project(':StethoReleaseLib')*/
 
-    debugImplementation project(':StethoDebugLib')
-    releaseImplementation project(':StethoReleaseLib')
+    /*debugImplementation project(':StethoDebugLib')
+    releaseImplementation project(':StethoReleaseLib')*/
 
-    //debugImplementation 'com.github.FantasticAndroid.BetterStetho:StethoDebugLib:1.0'
-    //debugImplementation 'com.github.FantasticAndroid.BetterStetho:StethoReleaseLib:1.0'
+    debugImplementation 'com.github.FantasticAndroid.BetterStetho:StethoDebugLib:2.0'
+    releaseImplementation 'com.github.FantasticAndroid.BetterStetho:StethoReleaseLib:2.0'
     //releaseImplementation 'com.github.FantasticAndroid.BetterStetho:StethoReleaseLib:1.0'
 }

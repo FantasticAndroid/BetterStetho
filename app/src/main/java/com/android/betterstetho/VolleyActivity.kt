@@ -37,5 +37,4 @@ class VolleyActivity : CoreActivity() {
         stringRequest.setShouldCache(false)
         ApiClient(coreApp).addRequestInQueue(stringRequest)
     }
-
 }
