@@ -12,9 +12,10 @@ To check how it works, please go through the app module.
 
 ### Libraries integrated-
 [Stetho](http://facebook.github.io/stetho/)
+
 [Retrofit](https://square.github.io/retrofit/)
+
 [Volley](https://developer.android.com/training/volley/index.html)
-[]
 
 #### How to use
 Project level `build.gradle`
