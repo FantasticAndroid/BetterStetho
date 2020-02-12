@@ -11,7 +11,10 @@ Better Stetho only integrate in Project source code for Debug build only and aut
 To check how it works, please go through the app module.
 
 ### Libraries integrated-
-Stetho 1.5.1 from (http://facebook.github.io/stetho/)
+[Stetho](http://facebook.github.io/stetho/)
+[Retrofit](https://square.github.io/retrofit/)
+[Volley](https://developer.android.com/training/volley/index.html)
+[]
 
 #### How to use
 Project level `build.gradle`
